@@ -1,0 +1,84 @@
+/* Reset and Box-Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    padding: 10em;
+    background: url(https://secretcapetown.co.za/wp-content/uploads/2019/07/Photo-by-Daniel-Kux-from-Pexels-Is-It-Safe-To-Drink-Tap-Water-In-Cape-Town.jpg);
+    opacity: 0.5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Glass Container */
+  .glass, .glass-1 {
+    width: 500px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+    border-radius: 9px;
+    backdrop-filter: blur(50px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+    line-height: 1.5;
+    transform: translateY(-5%);
+    transition: transform 0.5s;
+  }
+  
+  /* Color-specific styles */
+  .glass {
+    color: #000;
+    font-size: 1.6rem;
+  }
+  .glass-1 {
+    color: rgb(122, 82, 82);
+    font-size: 1.7rem;
+  }
+  
+  /* Heading Styles */
+  .glass h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .glass h2 {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  
+  /* Input Container */
+  .input {
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    margin-top: 40px;
+  }
+  
+  /* Input Field */
+  .input input {
+    width: 100%;
+    height: 70px;
+    border: none;
+    padding-left: 30px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+  /* Paragraph Text */
+  .glass p {
+    font-size: 1.6rem;
+    margin-top: 30px;
+  }
+  
