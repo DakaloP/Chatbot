@@ -11,7 +11,7 @@
     height: 100vh;
     font-family: sans-serif;
     padding: 10em;
-    background: url(https://secretcapetown.co.za/wp-content/uploads/2019/07/Photo-by-Daniel-Kux-from-Pexels-Is-It-Safe-To-Drink-Tap-Water-In-Cape-Town.jpg);
+    background: url("image.png");
     opacity: 0.5;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@
   
   /* Color-specific styles */
   .glass {
-    color: #000;
+    color: #fbfbfe;
     font-size: 1.6rem;
   }
   .glass-1 {
@@ -51,10 +51,14 @@
   .glass h1 {
     font-size: 1.5rem;
     text-align: center;
+    color: rgb(52, 4, 197);
+    font-size:larger;
   }
   .glass h2 {
     font-size: 1rem;
     margin-top: 20px;
+    color:rgb(39, 6, 187) ;
+    font-size: smaller;
   }
   
   /* Input Container */
@@ -63,6 +67,7 @@
     height: 70px;
     overflow: hidden;
     margin-top: 40px;
+  
   }
   
   /* Input Field */

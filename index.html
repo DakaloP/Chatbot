@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"
 />
 <title>Chatbot Javascript </title>
-<link rel="stylesheet" href="/style.css"/>
+<link rel="stylesheet" href="/style.css" />
+<script src="/Json.js"></script>
 </head>
 <body>
 <div class="glass">
@@ -17,12 +19,17 @@
 type="text"
 id="userBox"
 onkeydown="if(event.keyCode == 13){ talk()}"
-placeholder="Type your Question"
+placeholder="Type your Question" style="background-color: rgb(0, 238, 255);"
 />
 </div>
-
-<p id="chatLog">Answer Appering Hear</p>
+<p id="chatLog" style="color: rgb(20, 7, 196);">Answer Appearing Here
+    
+</p>
 </div>
-<script src="/Json.js"></script>
+
+
+
+
+
 </body>
 </html>
